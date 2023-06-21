@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/fotos-gratis/variedade-de-comida-de-acao-de-gracas-plana-e-com-espaco-de-copia_23-2149114449.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe {
+  width: 300px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+  padding: 20px;
+  margin: 0;
+  background-color: #ff7f50;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+
+.recipe-box {
+  padding: 20px;
+}
+
+.recipe-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.recipe-box h3 {
+  margin: 0;
+}
+
+.recipe-box .expand-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ff7f50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe-box .recipe-content {
+  display: none;
+  padding-top: 10px;
+}
+
+.recipe-box .recipe-content h4 {
+  margin: 0;
+}
+
+.recipe-box .recipe-content ul,
+.recipe-box .recipe-content ol {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
